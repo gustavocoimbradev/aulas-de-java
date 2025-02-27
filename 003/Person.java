@@ -2,7 +2,7 @@ public class Person {
 
     private String name;
     private int age;
-    private boolean isRegistered;
+    private boolean isRegistered = false;
 
     public void setName(String name) {
         this.name = name;
@@ -29,8 +29,7 @@ public class Person {
             this.isRegistered = true;
             System.out.println("Person successfully registered");
         } else {
-            this.isRegistered = false;
-            System.err.println("Age must be major than 18");
+            System.out.println("Age must be major than 18");
         }
         return this.isRegistered;
     }
