@@ -2,7 +2,6 @@ public class Person {
 
     private String name;
     private int age;
-    private boolean isRegistered = false;
 
     public void setName(String name) {
         this.name = name;
@@ -24,14 +23,12 @@ public class Person {
         return this.age >= 18;
     }
 
-    public boolean save() {
+    public void save() {
         if (this.isAdult()) {
-            this.isRegistered = true;
-            System.out.println("Person successfully registered");
+            System.out.println("Person successfuly created");
         } else {
             System.out.println("Age must be major than 18");
         }
-        return this.isRegistered;
     }
 
 }
