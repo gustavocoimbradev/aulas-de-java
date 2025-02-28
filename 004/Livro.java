@@ -1,4 +1,4 @@
-public class Livro {
+public class Livro { 
 
     private int id;
     private String titulo;
@@ -55,15 +55,15 @@ public class Livro {
         return this.disponivel;
     }
 
-    public void Criar() {
+    public void criar() {
         System.out.println("Livro criado com sucesso!");
     }
 
-    public void Atualizar() {
+    public void atualizar() {
         System.out.println("Livro atualizado com sucesso!");
     }
 
-    public void Excluir(int id) {
+    public void excluir() {
         System.out.println("Livro excluido com sucesso!");
     }
 

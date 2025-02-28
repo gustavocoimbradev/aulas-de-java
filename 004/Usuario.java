@@ -2,7 +2,7 @@ public class Usuario {
 
     private int id;
     private String nome;
-    private int[] livros;
+    private Number[] livros;
 
     public void setId(int id) {
         this.id = id;
@@ -12,7 +12,7 @@ public class Usuario {
         this.nome = nome;
     }
 
-    public void setLivros(int[] livros) {
+    public void setLivros(Number[] livros) {
         this.livros = livros;
     }
 
@@ -24,19 +24,19 @@ public class Usuario {
         return this.nome;
     }
 
-    public int[] getLivros(){
+    public Number[] getLivros(){
         return this.livros;
     }
 
-    public void Criar() {
+    public void criar() {
         System.out.println("Usuário criado com sucesso!");
     }
 
-    public void Atualizar() {
+    public void atualizar() {
         System.out.println("Usuário atualizado com sucesso!");
     }
 
-    public void Excluir(int id) {
+    public void excluir() {
         System.out.println("Usuário excluido com sucesso!");
     }
  

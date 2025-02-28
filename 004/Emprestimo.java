@@ -3,7 +3,7 @@ public class Emprestimo {
     private int livro;
     private int usuario;
     private String dataEmprestimo;
-    private String dataDevolucao;
+    private String dataDevolucao; 
 
     public void setLivro(int livro) {
         this.livro = livro;
@@ -37,15 +37,15 @@ public class Emprestimo {
         return this.dataDevolucao;
     }
 
-    public void Criar() {
+    public void criar() {
         System.out.println("Empréstimo criado com sucesso!");
     }
 
-    public void Atualizar() {
+    public void atualizar() {
         System.out.println("Empréstimo atualizado com sucesso!");
     }
 
-    public void Excluir(int id) {
+    public void excluir() {
         System.out.println("Empréstimo excluido com sucesso!");
     }
 
