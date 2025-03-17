@@ -51,7 +51,6 @@ public class Bloco {
             return false;
         }
     }
-
     public void getBloco() {
         System.out.println("ID: " + getId());
         System.out.println("Name: " + getName());
