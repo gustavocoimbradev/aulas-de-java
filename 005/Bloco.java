@@ -53,9 +53,9 @@ public class Bloco {
     }
 
     public void getBloco() {
-        System.out.println("ID: " + this.id);
-        System.out.println("Name: " + this.name);
-        System.out.println("Deleted: " + this.deleted);
+        System.out.println("ID: " + getId());
+        System.out.println("Name: " + getName());
+        System.out.println("Deleted: " + getDeleted());
     }
     
 }
