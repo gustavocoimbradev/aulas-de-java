@@ -1,6 +1,6 @@
 class Main {
     
-    void Main(String[] args) {
+    public static void main(String[] args) {
         
         Carro carro             = new Carro("AAA-0000","Chevrolet","Corsa","Preto");
         Motorista motorista     = new Motorista("Gabriel", "00000000000", carro);
