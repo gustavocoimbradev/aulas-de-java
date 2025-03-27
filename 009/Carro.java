@@ -16,33 +16,32 @@ class Carro {
         this.placa = placa;
     }
     
+    private String getPlaca() {
+        return this.placa;
+    }
+    
     private void setMarca(String marca) {
         this.marca = marca;
+    }
+    
+    private String getMarca() {
+        return this.marca;
     }
     
     private void setModelo(String modelo) {
         this.modelo = modelo;
     }    
     
+    private String getModelo() {
+        return this.modelo;
+    }
+    
     private void setCor(String cor) {
         this.cor = cor;
     }
     
-    private String getPlaca() {
-        return this.placa;
-    }
-        
-    private String getMarca() {
-        return this.marca;
-    }
-        
-    private String getModelo() {
-        return this.modelo;
-    }
-        
     private String getCor() {
         return this.cor;
     }
-    
     
 }
