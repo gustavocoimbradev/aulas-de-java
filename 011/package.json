@@ -1,0 +1,11 @@
+{
+  "name": "011",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "java": "javac *.java && java Main && rm *.class"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
